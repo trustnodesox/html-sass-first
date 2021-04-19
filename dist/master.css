@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: orange;
+}
+.container button {
+  background-color: yellow;
+}
+
+.nested {
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+}

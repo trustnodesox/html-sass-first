@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$background-first : blue;
+$background-second : yellow;
+
+.container{
+  background-color: orange;
+    button{
+      background-color: $background-second;
+    }
+}
+
+.nested{
+  width: 50%;
+  height: 50vh;
+  background-color: $background-first;
+}
